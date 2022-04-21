@@ -1,7 +1,7 @@
 # petdevshop
 Node + TypeScript Project
 
-### Global Requiremnts:
+### Global Requirements:
 `npm i -g nodemon typescript ts-node`
 
 ### Install:
