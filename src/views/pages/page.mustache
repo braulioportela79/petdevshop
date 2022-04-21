@@ -1,9 +1,14 @@
 {{>partials/header}}
 
-<section class="banner" style="background-image: url('images/allanimals.jpg')">
-  All Pets
+{{#banner}}
+<section
+  class="banner"
+  style="background-image: url('images/{{ background }}')"
+>
+  {{ title }}
 </section>
-<h2>All pets available for adoption</h2>
+<h2>{{ title }} available for adoption</h2>
+{{/banner}}
 
 <div class="container list">
   <div class="item">
