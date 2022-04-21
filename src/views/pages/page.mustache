@@ -11,12 +11,14 @@
 {{/banner}}
 
 <div class="container list">
+  {{#list}}
   <div class="item">
-    <img src="images/german-shepherd.jpg" class="item--image" />
-    <div class="item--name">German Shepherd</div>
-    <div class="item--color">Color: Black & Tan</div>
-    <div class="item--gender">Gender: Male</div>
+    <img src="images/{{ image }}" class="item--image" />
+    <div class="item--name">{{ name }}</div>
+    <div class="item--color">Color: {{ color }}</div>
+    <div class="item--gender">Gender: {{ gender }}</div>
   </div>
+  {{/list}}
 </div>
 
 {{>partials/footer}}
